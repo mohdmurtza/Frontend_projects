@@ -1,0 +1,150 @@
+body {
+    margin: 0rem 2rem;
+    padding: 0px;
+    height: 100rem;
+}
+
+.navbar {
+    display: flex;
+    background-color: brown;
+    align-items: center;
+
+
+}
+
+.navbar h1 {
+    padding-left: 1rem;
+    font-size: 2.2rem;
+}
+
+.navbar li {
+    display: inline;
+    padding: 0.2rem 1rem;
+    border-radius: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 1.1rem;
+}
+
+.navbar li:hover {
+    color: rgb(72, 212, 212);
+    background-color: rgb(38, 16, 16);
+}
+
+.mainbody {
+    display: flex;
+    height: 20rem;
+    margin: 4rem 2rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box {
+    width: 50%;
+}
+
+input {
+    text-align: center;
+    margin: 0.1rem;
+}
+
+#box2 {
+    border: 2px solid;
+    width: 16%;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    flex-shrink: 2;
+}
+
+.mainbody .btn {
+    text-align: left;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.px {
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: white;
+    text-align: center;
+    width: 9rem;
+}
+
+.px a {
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 0rem 1rem;
+
+}
+
+.px img {
+    width: 10rem;
+}
+
+.px a:hover {
+    color: rgb(255, 255, 255);
+    background-color: black;
+
+}
+
+.course h1 {
+    text-align: center;
+    color: blue;
+    margin: 0rem 5rem;
+    border-radius: 1rem;
+    background-color: #6e5454;
+}
+
+.course {
+    background-color: lightgreen;
+    margin-top: 5rem;
+    border-radius: 3rem;
+}
+
+.team {
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner h1 {
+    text-align: center;
+
+}
+
+.team img {
+    height: 10rem;
+}
+
+.about {
+    text-align: center;
+    padding: 3rem;
+
+}
+
+.about_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.foot{
+    text-align: center;
+    background-color: rgb(65, 20, 20);
+    margin: 0rem;
+}

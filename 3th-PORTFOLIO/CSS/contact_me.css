@@ -1,0 +1,51 @@
+body{
+    background-color: #a3e2e3;
+}
+.navbar{
+    display: block;
+    text-align: center;
+    background-color: darkorchid;
+    height: 2rem;
+}
+.navbar li{
+    display: inline;
+}
+.navbar li a{
+    padding: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: beige;
+
+}
+.navbar li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.container{
+    display: block;
+    width: 25rem;
+    margin: 12px auto;
+    border: 1px solid red;
+    height: 25rem;
+    border-radius: 2rem;
+    background-color: #ff45006b;
+
+}
+.container h1{
+    text-align: center;
+}
+.container li{
+    display: inline-block;
+    margin: 1rem;
+}
+.container li a {
+    text-decoration: none;
+}
+#link{
+    display: block;
+    color: green;
+    text-align: center;
+}
+#link:hover{
+    color: black;
+}

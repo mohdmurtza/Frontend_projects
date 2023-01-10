@@ -1,0 +1,66 @@
+*{
+    color: white;
+}
+body{
+    background: url(img/photo-1585624854522-5257f7ca13b4.jpg);
+    margin: 0px;
+    height: 600px;
+
+}
+ h3{
+    display: inline;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2rem;
+    margin: 0px;
+}
+nav.navbar{
+    display: inline;
+}
+.navbar li{
+    display: inline;
+    float: right;
+    padding: 1rem;
+    font-size: 1rem;
+}
+.navbar li:hover{
+    color: rgb(213, 149, 149);
+    text-decoration: underline;
+}
+div.container{
+    display: block;
+    text-align: center;
+    width: 100vw;
+}
+.container{
+    display: block;
+    
+    height: 10rem;
+    position: absolute;
+    width: 30rem;
+   position: absolute;
+   top: 16rem;
+    text-align: center;
+}
+div .container p input{
+    display: inline;
+    width: 30rem;
+    height: 45rem;
+}
+input{
+    background-color: transparent;
+    border: 1px solid brown;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+input:hover{
+    background-color: rgb(218, 108, 108);
+    color: rgb(0, 0, 0);
+}
+div p{
+    display: inline-block;
+    width: 39rem;
+}
+

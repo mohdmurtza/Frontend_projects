@@ -1,0 +1,112 @@
+.navbar{
+    display: block;
+    padding: 8px;
+    margin: -8px;
+    width: 100%;
+    float: right;
+   /* background-color: rgb(44 50 40); */ 
+}
+.navbar li{
+    display: inline;
+}
+.navbar li a {
+    display: inline;
+    text-decoration: none;
+    color:  rgb(92 157 44);
+    padding: 12px;
+    float: right;
+    font-size: 500;
+}
+.navbar li a:hover{
+    color: rgb(12, 4, 4);
+}
+.right{
+    display:block;
+    width:70%;
+    float: right;
+    height: 570px;
+    background-color: khaki;
+}
+body{
+    background-color:#D7D8D8;
+    height: 800px;
+}
+.left{
+    display:block;
+    float: left;
+    width: 30%;
+    height: 570px;
+    background-color: #a0cd78;
+}
+.left h2{
+    display: block;
+    margin: 12px;
+}
+.container{
+    
+    display: inline-block;
+    position: absolute;
+    top: 23%;
+    right: 11%;
+    width: 850px;
+    height: 470px;
+    border-radius: 3px;
+    background: white;
+}
+.container img{
+    width: 288px;
+    display: inline;
+    position: absolute;
+    top: 24px;
+    right: 30px;
+    border: 2px solid #917171;
+}
+.nam img{
+    display: inline-block;
+    width: 34%;
+}
+.skills h1{
+    display:inline-block;
+    margin: 87px 573px;
+    font-size: 900;
+}
+.nam{
+    display: inline-block;
+    width: 46%;
+    padding: 19px;
+    text-align: center;
+    font-size: x-large;
+}
+.aws{
+    display: block;
+    text-align: center;
+    font-size: x-large;
+}
+
+footer{
+    display:block;
+    background-color: rgb(30, 17, 17);
+    height: 84px;
+    position: absolute;
+    top: 232%;
+    width: 100%;
+    text-align: center;
+    }
+footer a{
+    text-decoration: none;
+    padding: 23px;
+    color: darkgreen;
+}
+.about h2{
+    display: inline;
+    top: 64px;
+    left: 91px;
+    position: absolute;
+    font-style: italic;
+}
+.about h3{
+    display: inline;
+    top: 99px;
+    left: 173px;
+    position: absolute;
+}

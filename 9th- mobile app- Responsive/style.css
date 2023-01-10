@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 150rem;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0rem 1rem ;
+    font-size: 1.5rem;
+    height: 6rem;
+}
+
+.navbar li{
+    display: inline;
+    padding: 0rem 1rem;
+    margin: 0rem 1rem;
+}
+.navbar li a{
+    text-decoration: none;
+    color: rgba(165, 42, 42, 0.701);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.navbar li a:hover{
+    color: rgba(105, 28, 28, 0.701);
+    text-decoration: underline;
+}
+.cnt{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    width: 50%;
+    font-weight: 600;
+    margin: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    background-image: url(img/bgl.jpg);
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    height: 25rem;
+
+}
+.container h1{
+    font-size: 4rem;
+    margin: 0px;
+}
+.container p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    
+}
+#p1{
+    color: #3fbb3f;
+    font-weight: 700;
+}
+.btn p{
+    font-weight: 500;
+}
+.btn{
+    display: inline-block;
+    width: 8rem;
+    height: 3rem;
+    margin: auto;
+    border-radius: 1rem;
+    border: 0px;
+    cursor: pointer;
+}
+
+.serve{
+    display: flex;
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.services{
+    margin: 2rem;
+}
+.services img{
+    height: 29rem;
+    border-radius: 1rem;
+    
+}
+.services h2{
+    font-size: 4rem;
+    margin: 0px;
+    color: rgb(11, 7, 7);
+}
+.services h4{
+    color: blue;
+}
+.topic{
+    font-weight: 700;
+}
+
+#free{
+    width: 9rem;
+    height: 3rem;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    border-radius: 2rem;
+}
+#free:hover{
+    color: rgb(246, 246, 246);
+    background-color: rgb(51, 78, 78);
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.box{
+
+    height: 25rem;
+    margin: 3rem;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.box h1{
+    font-size: 3rem;
+    margin: 0px;
+}
+#adv{
+    background-color: #2700ffde;
+    color: white;
+}
+#te{
+    background-color: #04060af2;
+    color: white;
+}
+#bas{
+    background-color: #35dd4afa;
+    color: white;
+}
+.p_p{
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+}

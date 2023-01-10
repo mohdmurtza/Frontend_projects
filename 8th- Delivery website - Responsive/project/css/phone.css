@@ -1,0 +1,13 @@
+.navbar{
+    flex-direction: column;
+}
+.home{
+    justify-content: center;
+    align-items: center;
+}
+.service-cnt{
+    flex-direction: column;
+}
+.partner{
+    flex-direction: column;
+}

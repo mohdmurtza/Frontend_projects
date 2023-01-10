@@ -1,0 +1,28 @@
+.navbar{
+    flex-direction: column;
+
+}
+.cantent{        
+    max-width: 33rem;
+    max-height: 20rem;
+}
+.courses{
+    max-width: 23rem;
+}
+.first{
+    flex-direction: column;
+   
+}
+.second{
+    flex-direction: column-reverse;
+}
+.third{
+    flex-direction: column;
+
+}
+.forth{
+    flex-direction: column-reverse;
+}
+.container{
+    margin-top: 6rem;
+}

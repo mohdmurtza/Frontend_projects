@@ -1,0 +1,81 @@
+*{
+    font-family: 'Tiro Devanagari Hindi', serif;
+}
+body {
+    background-color: #deb8874f;
+}
+
+h1 {
+    background-color: crimson;
+    margin: 0px;
+    /* margin: 2px auto; */
+    text-align: center;
+    font-size: 3rem;
+    font-family: cursive;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem ;
+}
+
+.navbar {
+    display: block;
+    background-color: black;
+    border-end-end-radius: 1rem;
+}
+
+.navbar li {
+    display: inline;
+
+}
+
+.navbar li a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar li a:hover {
+    color: darkred;
+}
+
+.cntmain {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid green;
+    border-radius: 1rem;
+    margin: 1rem;
+    background-color: white;
+
+}
+
+.cnthead {
+    padding: 2rem;
+}
+
+.cnthead h2 {
+    text-align: center;
+}
+
+.cntmain img {
+    height: 12rem;
+}
+
+.cnthead a h2 {
+    text-decoration: none;
+    color: dimgray;
+    background-color: gainsboro;
+}
+
+.cnthead a {
+    text-decoration: none;
+}
+
+.cnthead a h2:hover {
+    color: black;
+}
+#logo{
+    position: absolute;
+    width: 5rem;
+    left: 1rem;
+    top: 1rem;
+}

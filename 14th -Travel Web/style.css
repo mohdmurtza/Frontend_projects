@@ -1,0 +1,84 @@
+.navigation{
+    padding: 0rem 1rem;
+    background-color: #000000b8;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar li{
+    display: inline;
+    border-right: 1px solid black;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+    color: black;
+    font-weight: 600;
+}
+.navbar img{
+    width: 5rem;
+    padding-top: 0.2rem;
+}
+.navbar li a:hover{
+    color: blueviolet;
+
+}
+.log{
+    display: flex;
+    background: url(img/beach.jpg) no-repeat no-repeat center/cover;
+    text-align: center;
+    padding: 2rem;
+}
+#log{
+    text-align: center;
+    padding: 3rem;
+}
+form{
+    width: 18rem;
+    height: 14rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+}
+.I_serve{
+     padding: 1rem 3rem;
+}
+.I_serve h1{
+    font-size: 4rem;
+    font-style: italic;
+    margin: 0px;
+    color: white;
+}
+.I_serve p{
+    font-size: 1rem;
+}
+.log a{
+    color: white;
+}
+.log a:hover{
+    color: yellowgreen
+}
+.ind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.indpc{
+    margin: 1rem 2rem;
+}
+.ind a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+}
+.ind a:hover{
+    color: blueviolet;
+    background-color: coral;
+}
+.indpc h1{
+    text-align: center;
+}
+.most h1{
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+html{
+    width: 78rem;
+}
+body {
+    background-color: darksalmon;
+}
+
+h2 {
+    margin: 0px;
+    height: 3rem;
+}
+
+div.box {
+    width: 50rem;
+    height: 13rem;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2rem 14rem;
+    background-color: #e7ba81;
+    text-align: center;
+    border-radius: 2rem;
+}
+
+.box li {
+
+    text-decoration: none;
+}
+
+div.container {
+    height: 34rem;
+    background-color: #679f3c;
+}
+.container h2{
+    display: inline;
+    margin: 1rem;
+}
+div.navigation{
+    display: inline;
+}
+.navbar li {
+    display: inline;
+    align-self: center;
+    float: right;
+
+}
+
+.navbar {
+    display: inline;
+
+    height: 6vh;
+
+}
+
+.navbar li a {
+    text-decoration: none;
+    /* padding-top: 57px; */
+    margin: 16px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #582e2e;
+}
+
+.navbar li a:hover {
+    color: black;
+    text-decoration: underline;
+
+}

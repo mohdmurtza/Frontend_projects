@@ -1,0 +1,101 @@
+body{
+    background: url(image.jpg);
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: 79rem;
+    height: 150rem;
+    
+}
+
+.navbar{
+    display: block;
+    background-color: indigo;
+    height: 4rem;
+}
+.navbar h2{
+    display: inline;
+    color: white;
+    position: absolute;
+    top: 0rem;
+    padding: 0rem 2rem;
+}
+.nav{
+    display: inline;
+}
+.nav li{
+    display: inline;
+    margin: 1rem 0rem;
+    float: right;
+}
+.nav li a{
+    display: inline;
+    color: white;
+    margin: 1rem 1rem;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.nav li a:hover{
+    color: brown;
+}
+.imgbody{
+    display: block;
+    margin: 12px auto;
+    width: 40rem;
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 33rem 20rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+button.submit{
+    display: block;
+    margin: 2px auto;
+    font-size: 3rem;
+    border: none;
+}
+button.submit:hover{
+    background-color: aqua;
+    color: rgb(66, 22, 22);
+}
+.imgbody p{
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+.about{
+    display: block;
+    width: 100%;
+}
+.para{
+    display: block;
+    width: 25%;
+    padding: 3rem 3rem;
+    margin: 12px auto;
+    border-radius: 4rem;
+    top: 50rem;
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.image1 img{
+    width: 75rem;
+    top: 124rem;
+    left: 2rem;
+    position: absolute;;
+
+}
+.image1body{
+    top: 127rem;
+    left: 2rem;
+    display: block;
+    width: 95%;
+    position: absolute;
+    text-align: center;
+}
+.image1body p{
+    width: 50rem;
+    display: inline-block;
+}
+

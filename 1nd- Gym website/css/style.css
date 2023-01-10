@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('/img/img.jpg');
+
+}
+.left{
+    border: 2px solid black;
+}
+.mid{
+    border: 2px solid black;
+}
+.right{
+    border: 2px solid black;
+}
